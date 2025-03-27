@@ -8,5 +8,5 @@
 ✅ Agile development – Transparent workflows (Jira/Git)
 
 ## Contact  
-📧 Email: omarhajiyevo4@gmail.com
-💼 LinkedIn: omar-hajiyev-o4
+ 📧 Email: omarhajiyevo4@gmail.com
+ 💼 LinkedIn: omar-hajiyev-o4
