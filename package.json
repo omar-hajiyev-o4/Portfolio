@@ -17,7 +17,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "react-scripts start",
-    "start:backend": "cd backend && node server.js",
+    "start:backend": "cd api && node server.js",
     "dev": "npm run start"
   },
   "eslintConfig": {
