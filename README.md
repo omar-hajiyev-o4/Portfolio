@@ -14,3 +14,9 @@ ________________________________________________________________________________
 📩 Get In Touch
 📧 Email: omarhajiyevo4@gmail.com
 💼 LinkedIn: omar-hajiyev-o4
+
+
+## Contact  
+📧 email@example.com  
+🔗 linkedin.com/in/yourprofile  
+🌐 yourportfolio.site  
