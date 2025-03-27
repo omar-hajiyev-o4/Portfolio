@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #3498db;
+    --primary-dark: #2980b9;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-text: #232323;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+  }
+  
+  /* Dark Theme Variables */
+  [data-theme="dark"] {
+    --primary-color: #3498db;
+    --primary-dark: #2980b9;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #ffffff;
+    --light-text: #333;
+    --bg-color: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Blue Theme Variables (Default) */
+  [data-theme="blue"] {
+    --primary-color: #3498db;
+    --primary-dark: #2980b9;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-text: #f8f9fa;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Purple Theme Variables */
+  [data-theme="purple"] {
+    --primary-color: #9b59b6;
+    --primary-dark: #8e44ad;
+    --secondary-color: #34495e;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-text: #f8f9fa;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Teal Theme Variables */
+  [data-theme="teal"] {
+    --primary-color: #1abc9c;
+    --primary-dark: #16a085;
+    --secondary-color: #34495e;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-text: #f8f9fa;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Theme preview classes */
+  .blue-theme {
+    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+  }
+  
+  .dark-theme {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+  
+  .purple-theme {
+    background: linear-gradient(135deg, #9b59b6 0%, #34495e 100%);
+  }
+  
+  .teal-theme {
+    background: linear-gradient(135deg, #1abc9c 0%, #34495e 100%);
+  }

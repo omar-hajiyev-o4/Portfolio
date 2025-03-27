@@ -1,0 +1,78 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: ",
+    "lastUpdatedDate": "27.03.2025",
+    "sections": {
+      "dataCollection": {
+        "title": "1. Data Collection",
+        "content": "We only collect the following information:",
+        "points": [
+          "Name and email address provided through contact form",
+          "Website usage statistics (via Google Analytics)"
+        ]
+      },
+      "dataUsage": {
+        "title": "2. Data Usage",
+        "content": "Collected data is used only for:",
+        "points": [
+          "Communicating with you",
+          "Improving our services",
+          "Security purposes"
+        ]
+      },
+      "dataSharing": {
+        "title": "3. Data Sharing",
+        "content": "We will not sell or share your personal information with any third parties."
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "content": "Our website uses cookies to enhance user experience."
+      },
+      "changes": {
+        "title": "5. Changes",
+        "content": "When we make changes to this policy, we will post the updated version on this page."
+      },
+      "contact": {
+        "title": "6. Contact",
+        "content": "<p>If you have any questions about this privacy policy, you can contact us at <a href=\"mailto:omarhajiyevo4@gmail.com\">omarhajiyevo4@gmail.com</a>.</p>"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "27.03.2025",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance",
+        "content": "By using this website, you agree to these terms of service."
+      },
+      "usageRights": {
+        "title": "2. Usage Rights",
+        "content": "Content on this site may be used for personal, non-commercial purposes."
+      },
+      "liability": {
+        "title": "3. Liability Limitations",
+        "content": "We do not guarantee the accuracy of information on this site. Users access at their own risk."
+      },
+      "contentUsage": {
+        "title": "4. Content Usage",
+        "content": "Proper attribution is required when sharing content from this site."
+      },
+      "changes": {
+        "title": "5. Changes",
+        "content": "We reserve the right to modify these terms of service."
+      },
+      "contact": {
+        "title": "6. Contact",
+        "content": "<p>For questions, please contact us at <a href=\"mailto:omarhajiyevo4@gmail.com\">omarhajiyevo4@gmail.com</a>.</p>"
+      }
+    }
+  },
+  "language": {
+    "current": "en",
+    "switchTo": "az",
+    "switchText": "Azərbaycanca"
+  }
+}
