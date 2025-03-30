@@ -27,5 +27,8 @@
       "dest": "/frontend-react/build/index.html",
       "status": 200
     }
-  ]
+  ],
+  "buildEnvironment": {
+    "NODE_VERSION": "18.x"
+  }
 }
