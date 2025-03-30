@@ -19,30 +19,23 @@
     }
   ],
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/backend-nodejs/server.js",
-      "methods": [
-        "GET",
-        "POST",
-        "OPTIONS"
-      ]
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "frontend-react/build/static/$1",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000"
-      }
-    },
-    {
-      "src": "/_next/(.*)",
-      "dest": "/frontend-react/build/_next/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend-react/build/index.html",
-      "status": 200
+  {
+    "src": "/api/(.*)",
+    "dest": "/backend-nodejs/server.js",
+    "methods": ["GET", "POST", "OPTIONS"]
+  },
+  {
+    "src": "/static/(.*)",
+    "dest": "/frontend-react/build/static/$1",
+    "headers": {
+      "Cache-Control": "public, max-age=31536000"
     }
-  ]
+  },
+  {
+    "src": "/(.*)",
+    "dest": "/frontend-react/build/index.html",
+    "status": 200
+  }
+]
+
 }
