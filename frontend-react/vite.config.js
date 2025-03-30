@@ -1,6 +1,6 @@
 export default {
-    base: '/',
-    build: {
-      outDir: '../frontend-react/build'
-    }
+  base: '/',
+  build: {
+    assetsDir: 'static'
   }
+}
