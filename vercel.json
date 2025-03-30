@@ -12,8 +12,7 @@
       "src": "frontend-react/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build",
-        "includeFiles": ["build/**/*"]
+        "distDir": "build"
       }
     }
   ],
