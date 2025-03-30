@@ -12,14 +12,14 @@
       "src": "frontend-react/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "frontend-react/build"
       }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/backend-nodejs/server.js",
+      "dest": "backend-nodejs",
       "methods": ["GET", "POST", "OPTIONS"]
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend-react/index.html",
+      "dest": "/frontend-react/$1",
       "continue": true
     }
   ]
