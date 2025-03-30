@@ -5,9 +5,7 @@
       "src": "backend-nodejs/server.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": [
-          "backend-nodejs/**/*"
-        ]
+        "includeFiles": ["backend-nodejs/**/*"]
       }
     },
     {
@@ -19,23 +17,15 @@
     }
   ],
   "routes": [
-  {
-    "src": "/api/(.*)",
-    "dest": "/backend-nodejs/server.js",
-    "methods": ["GET", "POST", "OPTIONS"]
-  },
-  {
-    "src": "/static/(.*)",
-    "dest": "/frontend-react/build/static/$1",
-    "headers": {
-      "Cache-Control": "public, max-age=31536000"
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend-nodejs/server.js",
+      "methods": ["GET", "POST", "OPTIONS"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend-react/build/index.html",
+      "status": 200
     }
-  },
-  {
-    "src": "/(.*)",
-    "dest": "/frontend-react/build/index.html",
-    "status": 200
-  }
-]
-
+  ]
 }
