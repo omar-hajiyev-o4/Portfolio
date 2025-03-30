@@ -34,8 +34,5 @@
       "dest": "/frontend-react/index.html",
       "continue": true
     }
-  ],
-  "config": {
-    "distDir": "frontend-react/build"
-  }
+  ]
 }
