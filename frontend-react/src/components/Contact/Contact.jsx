@@ -29,7 +29,7 @@ const Contact = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:8080/email/', {
+      const response = await fetch('https://portfolio-eta-three-19.vercel.app/api/email/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

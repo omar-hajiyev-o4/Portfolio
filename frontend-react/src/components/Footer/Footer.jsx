@@ -21,7 +21,7 @@ const Footer = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:8080/subscription/', {
+      const response = await fetch('https://portfolio-eta-three-19.vercel.app/api/subscription/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
