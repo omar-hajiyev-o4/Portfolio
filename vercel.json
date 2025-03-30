@@ -23,16 +23,21 @@
       "methods": ["GET", "POST", "OPTIONS"]
     },
     {
-      "src": "/static/(.*)",
+      "src": "/static/.*",
       "headers": {
-        "Cache-Control": "public, max-age=31536000"
+        "Cache-Control": "public, max-age=31536000, immutable"
       },
       "continue": true
     },
     {
-      "src": "/(.*)",
-      "dest": "/frontend-react/index.html",
-      "continue": true
+      "src": "/assets/.*",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000"
+      }
+    },
+    {
+      "src": "/.*",
+      "dest": "/frontend-react/index.html"
     }
   ]
 }
