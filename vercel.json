@@ -12,7 +12,7 @@
       "src": "frontend-react/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "frontend-react/build"
+        "distDir": "build"
       }
     }
   ],
@@ -23,12 +23,16 @@
       "methods": ["GET", "POST", "OPTIONS"]
     },
     {
+      "src": "/static/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000"
+      },
+      "continue": true
+    },
+    {
       "src": "/(.*)",
-      "dest": "/frontend-react/build/index.html",
-      "status": 200
+      "dest": "/frontend-react/index.html",
+      "continue": true
     }
-  ],
-  "buildEnvironment": {
-    "NODE_VERSION": "18.x"
-  }
+  ]
 }
