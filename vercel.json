@@ -10,10 +10,7 @@
     },
     {
       "src": "frontend-react/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "frontend-react/build"
-      }
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
@@ -24,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend-react/build/index.html",
+      "dest": "/public/index.html",
       "continue": true
     }
   ]
