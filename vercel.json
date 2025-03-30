@@ -37,7 +37,7 @@
     },
     {
       "src": "/.*",
-      "dest": "/frontend-react/index.html"
+      "dest": "/frontend-react/build/index.html"
     }
   ]
 }

@@ -1,6 +1,13 @@
 export default {
   base: '/',
   build: {
-    assetsDir: 'static'
+    outDir: '../dist',
+    assetsDir: 'static',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'static/[name].[hash][extname]',
+        entryFileNames: 'static/js/[name].[hash].js'
+      }
+    }
   }
 }
