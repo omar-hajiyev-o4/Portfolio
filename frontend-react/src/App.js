@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1>Test Başlıq</h1>
+      <h1>Test 3</h1>
     </div>
     // <NotificationProvider>
     //   <Router>
