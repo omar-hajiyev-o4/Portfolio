@@ -26,11 +26,12 @@
       "src": "/static/(.*)",
       "headers": {
         "Cache-Control": "public, max-age=31536000"
-      }
+      },
+      "continue": true
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend-react/build/index.html",
+      "dest": "/frontend-react/index.html",
       "continue": true
     }
   ]
