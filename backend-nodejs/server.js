@@ -16,14 +16,12 @@ app.use(express.json());
 app.use('/api/email', emailRouter);
 app.use('/api/subscription', subscriptionRouter);
 
-const vercelHandler = app;
-
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 8080;
   app.listen(PORT, () => console.log(`Local server running on port ${PORT}`));
 }
 
-export default vercelHandler;
+export default app;
 
 // import { config as configDotenv } from "dotenv";
 // import express from "express";
