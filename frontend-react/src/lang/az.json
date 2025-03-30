@@ -1,0 +1,78 @@
+{
+  "privacy": {
+    "title": "Məxfilik Siyasəti",
+    "lastUpdated": "Son yenilənmə:",
+    "lastUpdatedDate": "27.03.2025",
+    "sections": {
+      "dataCollection": {
+        "title": "1. Məlumat Toplanması",
+        "content": "Biz yalnız aşağıdakı məlumatları toplayırıq:",
+        "points": [
+          "Əlaqə forması vasitəsilə təqdim etdiyiniz ad və e-poçt ünvanı",
+          "Saytımızın istifadə statistikaları (Google Analytics vasitəsilə)"
+        ]
+      },
+      "dataUsage": {
+        "title": "2. Məlumatların İstifadəsi",
+        "content": "Toplanan məlumatlar yalnız:",
+        "points": [
+          "Sizinlə əlaqə saxlamaq üçün",
+          "Xidmətlərimizi yaxşılaşdırmaq üçün",
+          "Təhlükəsizlik məqsədləri üçün istifadə olunur"
+        ]
+      },
+      "dataSharing": {
+        "title": "3. Məlumat Paylaşımı",
+        "content": "Şəxsi məlumatlarınızı heç bir üçüncü tərəfə satmayacaq və ya paylaşmayacağıq."
+      },
+      "cookies": {
+        "title": "4. Çərəzlər (Cookies)",
+        "content": "Saytımız istifadəçi təcrübəsini yaxşılaşdırmaq üçün çərəzlərdən istifadə edir."
+      },
+      "changes": {
+        "title": "5. Dəyişikliklər",
+        "content": "Bu siyasətdə dəyişikliklər etdikdə, bu səhifədə yenilənmiş versiyasını yerləşdirəcəyik."
+      },
+      "contact": {
+        "title": "6. Əlaqə",
+        "content": "<p>Bu məxfilik siyasəti ilə bağlı suallarınız varsa, <a href=\"mailto:omarhajiyevo4@gmail.com\">omarhajiyevo4@gmail.com</a> ünvanı ilə əlaqə saxlaya bilərsiniz.</p>"
+      }
+    }
+  },
+  "terms": {
+    "title": "Xidmət Şərtləri",
+    "lastUpdated": "Son yenilənmə:",
+    "lastUpdatedDate": "27.03.2025",
+    "sections": {
+      "acceptance": {
+        "title": "1. Qəbul Edilməsi",
+        "content": "Bu saytdan istifadə etməklə siz bu xidmət şərtlərini qəbul etmiş sayılırsınız."
+      },
+      "usageRights": {
+        "title": "2. İstifadə Hüququ",
+        "content": "Bu saytın məzmunu şəxsi, qeyri-kommersiya məqsədləri üçün istifadə oluna bilər."
+      },
+      "liability": {
+        "title": "3. Məsuliyyət Məhdudiyyətləri",
+        "content": "Saytda təqdim olunan məlumatların dəqiqliyinə zəmanət vermirik. İstifadəçi öz riski ilə istifadə edir."
+      },
+      "contentUsage": {
+        "title": "4. Məzmunun İstifadəsi",
+        "content": "Sayt məzmununu yenidən paylaşarkən mənbəyə istinad etmək tələb olunur."
+      },
+      "changes": {
+        "title": "5. Dəyişikliklər",
+        "content": "Xidmət şərtlərində dəyişiklik etmək hüququmuzu qoruyuruq."
+      },
+      "contact": {
+        "title": "6. Əlaqə",
+        "content": "<p>Suallarınız üçün <a href=\"mailto:omarhajiyevo4@gmail.com\">omarhajiyevo4@gmail.com</a> ünvanı ilə əlaqə saxlaya bilərsiniz.</p>"
+      }
+    }
+  },
+  "language": {
+    "current": "az",
+    "switchTo": "en",
+    "switchText": "English"
+  }
+}

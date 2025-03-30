@@ -1,0 +1,11 @@
+# Backend
+backend-nodejs/node_modules/
+backend-nodejs/.env
+
+# Frontend
+frontend-react/node_modules/
+frontend-react/build/
+
+# Ümumi
+.DS_Store
+*.log
