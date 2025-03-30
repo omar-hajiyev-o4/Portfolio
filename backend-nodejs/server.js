@@ -16,10 +16,8 @@ app.use(express.json());
 app.use('/api/email', emailRouter);
 app.use('/api/subscription', subscriptionRouter);
 
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 8080;
-  app.listen(PORT, () => console.log(`Local server running on port ${PORT}`));
-}
+const PORT = process.env.PORT;
+app.listen(PORT, () => console.log(`Local server running on port ${PORT}`));
 
 export default app;
 
