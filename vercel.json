@@ -5,9 +5,12 @@
       "dest": "/backend-nodejs/server.js"
     },
     {
-      "src": "/.*",
-      "dest": "/frontend-react/index.html",
-      "continue": true
+      "src": "/static/.*",
+      "headers": { "Cache-Control": "public, max-age=31536000" }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend-react/index.html"
     }
   ]
 }

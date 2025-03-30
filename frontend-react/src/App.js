@@ -17,20 +17,17 @@ function App() {
   }, [theme]);
 
   return (
-    <div>
-      <h1>Test 3</h1>
-    </div>
-    // <NotificationProvider>
-    //   <Router>
-    //     <Routes>
-    //       <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
-    //       <Route path="/privacy" element={<Privacy theme={theme} setTheme={setTheme} />} />
-    //       <Route path="/terms" element={<Terms theme={theme} setTheme={setTheme} />} />
-    //       <Route path="*" element={<Navigate to="/" replace />} />
-    //     </Routes>
-    //   </Router>
-    //   <Notification />
-    // </NotificationProvider>
+    <NotificationProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
+          <Route path="/privacy" element={<Privacy theme={theme} setTheme={setTheme} />} />
+          <Route path="/terms" element={<Terms theme={theme} setTheme={setTheme} />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Router>
+      <Notification />
+    </NotificationProvider>
   );
 }
 

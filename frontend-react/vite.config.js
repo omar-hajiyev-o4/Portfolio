@@ -1,3 +1,6 @@
-// export default {
-//     base: '/'
-//   }
+export default {
+    base: '/',
+    build: {
+      outDir: '../frontend-react/build'
+    }
+  }
